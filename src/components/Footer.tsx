@@ -266,7 +266,10 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-1 text-blue-200">
                   <Phone className="w-3 h-3" />
-                  <span>+81 3-5555-1234</span>
+                  <span>03-5211-2632</span>
+                </li>
+                <li className="text-blue-300">
+                  support@stockdata.jp
                 </li>
                 <li className="text-blue-300 text-xs">
                   受付時間: 平日 9:00-18:00
@@ -281,12 +284,11 @@ export default function Footer() {
                 サービス情報
               </h4>
               <ul className="space-y-2 text-xs sm:text-sm text-blue-300">
-                <li>株式会社金融グループ</li>
-                <li>AI株式診断サービス</li>
-                <li>リアルタイム株価情報</li>
-                <li>テクニカル分析</li>
-                <li>銘柄スクリーニング</li>
-                <li>データ提供: 公開市場情報</li>
+                <li className="font-semibold">岩瀬朗</li>
+                <li className="text-[11px]">Akira Iwase</li>
+                <li className="mt-2">株式会社集英社インターナショナル</li>
+                <li className="text-[11px]">Shueisha International Co., Ltd.</li>
+                <li className="mt-2 text-[11px] leading-relaxed">101-0064<br/>東京都千代田区神田猿楽町1-5-15<br/>千代田ビル3F</li>
               </ul>
             </div>
 
@@ -336,7 +338,7 @@ export default function Footer() {
           {/* Copyright Section */}
           <div className="border-t border-blue-500/20 pt-4 text-center">
             <p className="text-xs sm:text-sm text-blue-300 mb-2 font-medium">
-              &copy; {currentYear} 栫式会社結禾テクノロジーズ. All rights reserved.
+              &copy; {currentYear} 株式会社集英社インターナショナル. All rights reserved.
             </p>
             <p className="text-[10px] sm:text-xs text-blue-400 leading-relaxed max-w-3xl mx-auto">
               当サイトで提供される情報は投資勧誘を目的としたものではありません。

@@ -1,5 +1,4 @@
-import AIChipLogo from './AIChipLogo';
-import TurquoiseFrame from './TurquoiseFrame';
+import RadarAnimation from './RadarAnimation';
 import GradientButton from './GradientButton';
 
 interface HeroSectionProps {
@@ -14,15 +13,20 @@ export default function HeroSection({ stockCode = '----', stockName = '', onDiag
 
   return (
     <div className="relative w-full">
-      <div className="w-full px-4 py-4 flex flex-col items-center">
-        <AIChipLogo className="w-32 h-32 mb-3" />
+      <div className="w-full px-4 py-6 flex flex-col items-center">
+        <h1
+          className="text-center mb-6 text-white font-bold text-2xl md:text-3xl lg:text-4xl"
+          style={{
+            fontFamily: "'Kozuka Gothic Pr6N', 'Noto Sans JP', sans-serif",
+            textShadow: '0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4)'
+          }}
+        >
+          銘柄情報分析
+        </h1>
 
-        <TurquoiseFrame className="w-full max-w-3xl">
-          <h1 className="text-center" style={{ fontFamily: "'Kozuka Gothic Pr6N', 'Noto Sans JP', sans-serif" }}>
-            <span className="text-yellow-400 font-bold text-2xl md:text-3xl lg:text-4xl">銘柄情報</span>
-            <span className="text-blue-500 font-medium text-xl md:text-2xl lg:text-3xl">表示ツール</span>
-          </h1>
-        </TurquoiseFrame>
+        <div className="w-full max-w-md h-64 md:h-80">
+          <RadarAnimation className="w-full h-full" />
+        </div>
       </div>
 
       {onDiagnosis && (

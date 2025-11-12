@@ -36,14 +36,14 @@ export default function SpecifiedCommercialTransactionAct() {
                   <dl className="space-y-3">
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">販売業者名</dt>
-                      <dd className="sm:col-span-2 text-gray-700">株式会社金融グループ<br />Financial Group Inc</dd>
+                      <dd className="sm:col-span-2 text-gray-700">株式会社集英社インターナショナル<br />Shueisha International Co., Ltd.</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">所在地</dt>
                       <dd className="sm:col-span-2 text-gray-700">
-                        〒100-0004<br />
-                        東京都千代田区大手町2-6-1<br />
-                        2-6-1 Otemachi, Chiyoda-ku, Tokyo
+                        〒101-0064<br />
+                        東京都千代田区神田猿楽町1-5-15 千代田ビル3F<br />
+                        1-5-15 Kanda Sarugakucho, Chiyoda-ku, Tokyo 101-0064
                       </dd>
                     </div>
                   </dl>
@@ -60,12 +60,16 @@ export default function SpecifiedCommercialTransactionAct() {
                   <h2 className="text-xl font-bold text-gray-900 mb-4">連絡先</h2>
                   <dl className="space-y-3">
                     <div className="grid sm:grid-cols-3 gap-2">
+                      <dt className="font-semibold text-gray-900">担当者</dt>
+                      <dd className="sm:col-span-2 text-gray-700">岩瀬朗（Akira Iwase）</dd>
+                    </div>
+                    <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">電話番号</dt>
-                      <dd className="sm:col-span-2 text-gray-700">+81 3-5555-1234</dd>
+                      <dd className="sm:col-span-2 text-gray-700">03-5211-2632</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">メールアドレス</dt>
-                      <dd className="sm:col-span-2 text-blue-600">contact@financialgroup.jp</dd>
+                      <dd className="sm:col-span-2 text-blue-600">support@stockdata.jp</dd>
                     </div>
                     <div className="grid sm:grid-cols-3 gap-2">
                       <dt className="font-semibold text-gray-900">受付時間</dt>
@@ -234,14 +238,14 @@ export default function SpecifiedCommercialTransactionAct() {
                   <Mail className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-gray-900 mb-1">メール</p>
-                    <p className="text-blue-600">contact@financialgroup.jp</p>
+                    <p className="text-blue-600">support@stockdata.jp</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 mb-4">
                   <Phone className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold text-gray-900 mb-1">電話</p>
-                    <p className="text-gray-700">+81 3-5555-1234（平日 9:00 - 18:00）</p>
+                    <p className="text-gray-700">03-5211-2632（平日 9:00 - 18:00）</p>
                   </div>
                 </div>
                 <Link
