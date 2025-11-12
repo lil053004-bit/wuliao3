@@ -14,17 +14,16 @@ export default function HeroSection({ stockCode = '----', stockName = '', onDiag
   return (
     <div className="relative w-full">
       <div className="w-full px-4 py-6 flex flex-col items-center">
-        <h1
-          className="text-center mb-8 text-white font-bold text-2xl md:text-3xl lg:text-4xl z-10 relative"
-          style={{
-            fontFamily: "'Kozuka Gothic Pr6N', 'Noto Sans JP', sans-serif",
-            textShadow: '0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4)'
-          }}
-        >
-          銘柄情報分析
-        </h1>
-
-        <div className="w-full max-w-md h-64 md:h-80 mx-auto flex items-center justify-center">
+        <div className="relative w-full max-w-md h-64 md:h-80 mx-auto flex items-center justify-center">
+          <h1
+            className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-12 md:-translate-y-16 text-center text-white font-bold text-2xl md:text-3xl lg:text-4xl z-20 whitespace-nowrap"
+            style={{
+              fontFamily: "'Kozuka Gothic Pr6N', 'Noto Sans JP', sans-serif",
+              textShadow: '0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.4)'
+            }}
+          >
+            銘柄情報分析
+          </h1>
           <RadarAnimation className="w-full h-full" />
         </div>
       </div>
