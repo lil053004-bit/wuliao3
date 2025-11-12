@@ -1,4 +1,3 @@
-import { Sparkles, Zap } from 'lucide-react';
 import GradientButton from './GradientButton';
 
 interface PulsingButtonProps {
@@ -41,11 +40,7 @@ export default function PulsingButton({ onClick, stockName = '', disabled = fals
               />
 
               <div className="relative flex flex-col items-center justify-center gap-2">
-                <div className="flex items-center gap-3">
-                  <Sparkles className="w-6 h-6 animate-spin text-cyan-300 drop-shadow-[0_0_8px_rgba(165,243,252,0.8)]" style={{ animationDuration: '3s' }} />
-                  <span className="font-black text-lg text-white drop-shadow-lg">{buttonText}</span>
-                  <Zap className="w-6 h-6 text-cyan-300 animate-icon-bounce drop-shadow-[0_0_8px_rgba(165,243,252,0.8)]" />
-                </div>
+                <span className="font-black text-lg text-white drop-shadow-lg">{buttonText}</span>
                 <span className="text-xs text-blue-100 font-semibold">※教育・学習用の情報表示</span>
               </div>
             </div>

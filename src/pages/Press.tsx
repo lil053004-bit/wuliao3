@@ -49,8 +49,8 @@ export default function Press() {
 
   const mediaContact = {
     department: '広報担当',
-    email: 'support@botkabuka.jp',
-    phone: '080-3376-0625',
+    email: 'support@stockdata.jp',
+    phone: '03-5211-2632',
     hours: '平日 9:00 - 18:00'
   };
 

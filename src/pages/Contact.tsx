@@ -162,13 +162,19 @@ export default function Contact() {
                 電話でのお問い合わせ
               </h3>
               <p className="text-sm text-gray-700 mb-2">
-                株式会社結禾テクノロジーズ<br />Musubiha Technologies, Inc.
+                岩瀬朗<br />Akira Iwase
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>電話番号:</strong> 080-3376-0625
+                株式会社集英社インターナショナル<br />Shueisha International Co., Ltd.
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>メールアドレス:</strong>support@botkabuka.jp
+                101-0064<br />東京都千代田区神田猿楽町1-5-18 千代田ビル3F
+              </p>
+              <p className="text-sm text-gray-700 mb-2">
+                <strong>電話番号:</strong> 03-5211-2632
+              </p>
+              <p className="text-sm text-gray-700 mb-2">
+                <strong>メールアドレス:</strong> support@stockdata.jp
               </p>
               <p className="text-sm text-gray-700">
                 <strong>受付時間:</strong> 平日 9:00-18:00

@@ -159,20 +159,24 @@ export default function About() {
               <div className="bg-slate-50 rounded-lg p-6">
                 <dl className="space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-start">
+                    <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">負責者</dt>
+                    <dd className="text-gray-700">岩瀬朗<br />Akira Iwase</dd>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">会社名</dt>
-                    <dd className="text-gray-700">株式会社結禾テクノロジーズ<br />Musubiha Technologies, Inc.</dd>
+                    <dd className="text-gray-700">株式会社集英社インターナショナル<br />Shueisha International Co., Ltd.</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">所在地</dt>
-                    <dd className="text-gray-700">〒100-0004<br />東京都渋谷区神南1-12-4 神南ビル6F<br />6th Floor, Jinnan Building, 1-12-4 Jinnan, Shibuya-ku, Tokyo</dd>
+                    <dd className="text-gray-700">101-0064<br />東京都千代田区神田猿楽町1-5-18 千代田ビル3F</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">電話番号</dt>
-                    <dd className="text-gray-700">080-3376-0625</dd>
+                    <dd className="text-gray-700">03-5211-2632</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">メールアドレス</dt>
-                    <dd className="text-gray-700">support@botkabuka.jp</dd>
+                    <dd className="text-gray-700">support@stockdata.jp</dd>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-start">
                     <dt className="font-semibold text-gray-900 w-32 flex-shrink-0">事業内容</dt>
