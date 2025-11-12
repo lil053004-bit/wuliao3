@@ -284,11 +284,12 @@ export default function Footer() {
                 サービス情報
               </h4>
               <ul className="space-y-2 text-xs sm:text-sm text-blue-300">
-                <li className="font-semibold">岩瀬朗</li>
-                <li className="text-[11px]">Akira Iwase</li>
-                <li className="mt-2">株式会社集英社インターナショナル</li>
-                <li className="text-[11px]">Shueisha International Co., Ltd.</li>
-                <li className="mt-2 text-[11px] leading-relaxed">101-0064<br/>東京都千代田区神田猿楽町1-5-15<br/>千代田ビル3F</li>
+                <li className="font-semibold">株式会社メッセ</li>
+                <li>AI株式診断サービス</li>
+                <li>リアルタイム株価情報</li>
+                <li>テクニカル分析</li>
+                <li>銘柄スクリーニング</li>
+                <li className="text-[11px] mt-2">データ提供: 公開市場情報</li>
               </ul>
             </div>
 
